@@ -12,7 +12,8 @@ m=1;
 omega=sqrt(k/m)
 
 //理論式
-x = (v0 / omega) * sin(omega * t) + x0 * cos(omega * t)
+//x = (v0 / omega) * sin(omega * t) + x0 * cos(omega * t)
+x = sqrt(m * v0 * v0 / k + x0 * x0) * sin(omega * t + atan(x0 / v0 * omega))
 v = (v0) * cos(omega * t) - x0 * omega * sin(omega * t)
 
 subplot(211) //速度
