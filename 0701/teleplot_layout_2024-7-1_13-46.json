@@ -1,0 +1,42 @@
+{
+   "widgets": [
+      {
+         "type": "chart",
+         "gridPos": {
+            "h": 10,
+            "w": 10,
+            "x": 0,
+            "y": 0
+         },
+         "series": [
+            {
+               "name": "ref",
+               "sourceNames": [
+                  "ref"
+               ],
+               "formula": "",
+               "options": {
+                  "_serie": "ref",
+                  "stroke": "rgba(231,76,60,1)",
+                  "fill": "rgba(231,76,60,0.1)"
+               },
+               "type": "number"
+            },
+            {
+               "name": "realVel",
+               "sourceNames": [
+                  "realVel"
+               ],
+               "formula": "",
+               "options": {
+                  "_serie": "realVel",
+                  "stroke": "rgba(52,152,219,1)",
+                  "fill": "rgba(52,152,219,0.1)"
+               },
+               "type": "number"
+            }
+         ]
+      }
+   ],
+   "viewDuration": "3600"
+}
